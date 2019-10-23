@@ -21,24 +21,6 @@ $myData=["hej",1,9.4,[1,2,3]];
 
 var_dump($myData);
 
-echo "<br><br>";
-foreach ($myData as $myVar) {
-
-  $myType=gettype ( $myVar );
-
-echo $myType;
-
-if ($myType=="array") {
-  echo "  - subarray data types: ";
-  foreach ($myVar as $mySubVar) {
-
-    $mySubType=gettype ( $mySubVar );
-    echo $mySubType." ";
-}
-
-}
-echo "<br>";
-}
 
 ?>
 
