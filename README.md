@@ -1,2 +1,2 @@
 # PHP-datatypes
-datatype opgave
+datatype opgave se moodle for detaljer
